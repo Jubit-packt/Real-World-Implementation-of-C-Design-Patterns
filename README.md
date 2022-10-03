@@ -1,31 +1,63 @@
-# Real World Implementation of C# Design Patterns 
-## Solve Daily Programming Challenges Using Elements of Reusable Object-Oriented Software
-### A book written and illustrated by [Bruce M. Van Horn II, CSM](https://www.linkedin.com/in/brucevanhorn2/)
+# Real-World Implementation of C# Design Patterns
 
-![Book Cover](actual-cover.png)
+<a href="https://www.amazon.com/dp/1803242736"><img src="https://images-na.ssl-images-amazon.com/images/I/41-z3wNvmpL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg" alt="Real-World Implementation of C# Design Patterns" height="256px" align="right"></a>
 
-This is not your classic book with an academic treatment, instead the book will explore real-world applications of design patterns in C# which will be useful in your everyday work. The book will allow software developers to recognize & deliver solutions to the common challenges faced time and again during software design in C# across all industries.
+This is the code repository for [Real-World Implementation of C# Design Patterns](https://www.amazon.com/dp/1803242736), published by Packt.
 
-## Check out the companion web site
-Visit the companion website for this book at [https://csharppatterns.dev](https://csharppatterns.dev).
+**Overcome daily programming challenges using elements of reusable object-oriented software**
 
-As a software developer, it is of key importance to learn new languages and at the same time be familiar with the programming paradigms and methods of leveraging patterns as both - a communications tool and as an advantage when designing well-written, easy to maintain codes. Being a collection of best practices, design patterns provide the necessary wisdom to solve  common sets of challenges in object-oriented design and programming. C# developers will be able to put their knowledge to work with this practical guide to design patterns. The book takes a hands-on approach to introducing patterns & anti-patterns. Furthermore, it elaborates 14 patterns along with their real-world implementations. The book will allow developers to know the implementation of each pattern and how to successfully implement those patterns in their C# code within the context of a real-world project. By the end of this book, developers will be able to recognize situations where they are tempted to reinvent the wheel, and quickly avoid the time and cost associated with solving problems that are common, well understood, with battle-tested, and proven design patterns.
+## What is this book about?
+As a software developer, you need to learn new languages and simultaneously get familiarized with the programming paradigms and methods of leveraging patterns, as both a communications tool and an advantage when designing well-written, easy-to-maintain code. Design patterns, being a collection of best practices, provide the necessary wisdom to help you overcome common sets of challenges in object-oriented design and programming.
 
-## What You Will Learn
-1.	Learn what patterns are, and how to conceive and document them
-2.	Explore common patterns that might come up in my everyday work
-3.	Recognize common anti-patterns early in the process
-4.	Use creational patterns to create flexible and robust object structures
-5.	Enhance class designs with structural patterns
-6.	Simplify object interaction and behaviour with behavioural patterns
+This book covers the following exciting features:
+* Get to grips with patterns, and discover how to conceive and document them
+* Explore common patterns that may come up in your everyday work
+* Recognize common anti-patterns early in the process
+* Use creational patterns to create flexible and robust object structures
+* Enhance class designs with structural patterns
+* Simplify object interaction and behavior with behavioral patterns
 
-## Audience
-This book is for new and mid-level software developers who are looking to take their object-oriented programs or software designing skills to the next level by learning to leverage common patterns. Readers are expected to have a firm grasp of programm
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1803242736) today!
 
-## Technical Requirements
-Throughout this book, I assume you know how to create new C# projects in your favorite integrated development environment (IDE), so I won’t spend any time on the mechanics of setting up and running projects. 
+<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
+alt="https://www.packtpub.com/" border="5" /></a>
 
-Should you decide to try any of this out, you’ll need the following:
-* A computer running the Windows operating system. I’m using Windows 10. Since the projects are simple command-line projects, I’m pretty sure everything here would also work on a Mac or Linux, but I haven’t tested the projects on those operating systems.
-* A supported IDE such as Visual Studio, JetBrains Rider, or Visual Studio Code with C# extensions. I’m using Rider 2021.3.3.
-* Some version of the .NET SDK. Again, the projects are simple enough that our code shouldn’t be reliant on any particular version, though some of the syntactic sugar used in the sample code is relatively new. I recommend using the .NET Core 6 SDK.
+## Instructions and Navigations
+All of the code is organized into folders. For example, Chapter02.
+
+The code will look like the following:
+```
+public interface IBicycleProduct
+{
+ public IFrame Frame { get; set; }
+ public ISuspension Suspension { get; set; }
+ public IHandlebars Handlebars { get; set; }
+ public IDrivetrain Drivetrain { get; set; }
+ public ISeat Seat { get; set; }
+ public IBrakes Brakes { get; set; }
+}
+```
+
+**Following is what you need for this book:**
+This book is for beginner and mid-level software developers who are looking to take their object-oriented programs or software designing skills to the next level by learning to leverage common patterns. A firm grasp of programming fundamentals and classical object-oriented programming (OOP) using languages like C#, C++, Objective-C, or Java is expected.
+
+With the following software and hardware list you can run all code files present in the book (Chapter 1-10).
+### Software and Hardware List
+| Chapter | Software required | OS required |
+| -------- | ------------------------------------ | ----------------------------------- |
+| 1-10 | C# 10 | Windows |
+| 1-10 | .NET Core 6 | Windows |
+| 1-10 | Rider, Visual Studio, or Visual Studio Code | Windows |
+
+
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://packt.link/3KWzG).
+
+### Related products
+* Parallel Programming and Concurrency with C# 10 and .NET 6 [[Packt]](https://www.packtpub.com/product/parallel-programming-and-concurrency-with-c-10-and-net6/9781803243672?utm_source=github&utm_medium=repository&utm_campaign=9781803243672) [[Amazon]](https://www.amazon.com/dp/1803243678)
+
+* High-Performance Programming in C# and .NET [[Packt]](https://www.packtpub.com/product/high-performance-programming-in-c-and-net/9781800564718?utm_source=github&utm_medium=repository&utm_campaign=9781800564718) [[Amazon]](https://www.amazon.com/dp/1800564716)
+
+
+## Get to Know the Author
+**Bruce M. Van Horn II**
+Bruce has 30 years of software development experience in everything from full-stack web development to desktop apps to video games. He also has 25 years of teaching experience at the college/university level.
